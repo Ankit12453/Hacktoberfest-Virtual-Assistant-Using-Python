@@ -104,7 +104,7 @@ def Take_query():
 			tellDay()
 			continue
 			
-			elif "open news" in query:
+		elif "open news" in query:
 			speak("Opening news ")
 			webbrowser.open("https://indianexpress.com/")
 			continue
