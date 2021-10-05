@@ -107,6 +107,11 @@ def Take_query():
 		elif "tell me the time" in query:
 			tellTime()
 			continue
+			
+		elif "take me to hacktoberfest" in query:
+			speak("Opening Hacktoberfest ")
+			webbrowser.open("https://hacktoberfest.digitalocean.com")
+			continue
 		
 		
 		elif "bye" in query:
