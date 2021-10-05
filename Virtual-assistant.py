@@ -110,7 +110,7 @@ def Take_query():
 		
 		
 		elif "bye" in query:
-			speak("Bye. Check Out GFG for more exicting things")
+			speak("Bye for now...stay safe , stay happy , stay healthy")
 			exit()
 		
 		elif "from wikipedia" in query:
