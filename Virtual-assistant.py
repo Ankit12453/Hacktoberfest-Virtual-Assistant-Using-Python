@@ -103,6 +103,11 @@ def Take_query():
 		elif "which day it is" in query:
 			tellDay()
 			continue
+			
+		elif "open news" in query:
+			speak("Opening news ")
+			webbrowser.open("https://indianexpress.com/")
+			continue
 		
 		elif "tell me the time" in query:
 			tellTime()
