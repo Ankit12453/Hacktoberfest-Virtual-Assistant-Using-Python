@@ -77,7 +77,7 @@ def tellTime():
 
 def Hello():
 
-	speak("hello sir I am your desktop assistant.Tell me how may I help you")
+	speak("hello sir I am moxa, your desktop assistant.Tell me how may I help you")
 
 
 def Take_query():
