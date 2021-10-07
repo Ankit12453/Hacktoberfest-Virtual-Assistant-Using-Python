@@ -112,6 +112,11 @@ def Take_query():
 			speak("Opening Hacktoberfest ")
 			webbrowser.open("https://hacktoberfest.digitalocean.com")
 			continue
+			
+		elif "open hacktoberfest discussion thread in twitter" in query:
+			speak("Opening Hacktoberfest Discussion thread in Twitter.")
+			webbrowser.open("https://twitter.com/search?q=%23hacktoberfest")
+			continue
 		
 		
 		elif "bye" in query:
