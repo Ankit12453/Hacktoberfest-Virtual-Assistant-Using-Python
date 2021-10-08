@@ -122,6 +122,11 @@ def Take_query():
 			speak("Opening Hacktoberfest Discussion thread in Twitter.")
 			webbrowser.open("https://twitter.com/search?q=%23hacktoberfest")
 			continue
+			
+		elif "First time Contributors can contribute to vinitshahdeo Github" in query:
+			speak("First time Contributors in Hacktoberfest.")
+			webbrowser.open("https://github.com/vinitshahdeo")
+			continue
 		
 		
 		elif "bye" in query:
