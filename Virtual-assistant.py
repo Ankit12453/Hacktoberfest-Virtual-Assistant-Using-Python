@@ -143,6 +143,12 @@ def Take_query():
 			result = wikipedia.summary(query, sentences=4)
 			speak("According to wikipedia")
 			speak(result)
+		elif 'play' in query:
+			song = query.replace('play', '')
+			print('playing '+ song)
+			speak('playing'+ song)
+			pywhatkit.playonyt(song)
+			continue
 		
 		elif "tell me your name" in query:
 			speak("I am moxa. Your deskstop Assistant")
