@@ -152,6 +152,10 @@ def Take_query():
 		
 		elif "tell me your name" in query:
 			speak("I am moxa. Your deskstop Assistant")
+			continue
+		elif "your favourite programming language" in query:
+			speak("I love python the most ")
+			continue
 
 if __name__ == '__main__':
 
